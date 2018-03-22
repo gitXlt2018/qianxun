@@ -1,0 +1,273 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-03 11:57:02
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-03 21:34:00
+*/
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	font-family: '微软雅黑';
+	background: url(../images/bg_all.png) no-repeat top center;
+}
+.top{
+	width: 1000px;
+	height: 700px;
+	margin:0 auto;
+	padding: 156px 0 150px;
+
+}
+
+h1{
+	background:url(../images/alogo.png) no-repeat 0px -112px;
+	width:330px;
+	height:68px;
+	margin:0 auto 58px;
+}
+.main{
+	width: 50%;
+	margin-left: -2px;
+	position:relative;
+	top: 0px;	
+	left:50%;
+	border-left: 4px solid #1cadf0;
+
+}
+
+
+
+
+.begin{
+	height: 30px;
+	margin-bottom: 60px;
+	position:relative;
+	left:-17px;
+}
+.begin span{
+	width: 30px;
+	height: 30px;
+	position:absolute;
+	left:0px;
+	top: 0px;
+	background:url(../images/version_bg.png) no-repeat;
+}
+span:nth-of-type(1){
+	background-position: -300px -183px;
+}
+span:nth-of-type(2){
+	background-position: -300px 216px;
+}
+span:nth-of-type(3){
+	background-position: -300px -249px;
+}
+
+.begin .txt{
+	width:auto;
+	padding-left: 45px;
+	font-size: 16px;
+	line-height:30px;
+	color:#333;
+}
+
+/* 第一个盒子(右边) */
+
+
+.box1{
+	width: 380px;
+	margin-bottom: 6px;
+	position:relative;
+	left:20px;
+	padding-left:10px;
+	background: url(../images/righ.png)no-repeat;
+}
+.box1 .icon{
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	position:absolute;
+	top:-6px;
+	left:-29px;
+	background:url(../images/version_bg.png) no-repeat -316px -317px;
+}
+
+h3{
+	font-size:20px;
+	font-weight: bold;
+}
+/* 蓝色盒子样式 */
+.con{
+	background:#1cadf0;
+	color:#fff;
+	padding:24px 30px;
+}
+
+.con span{
+	font-size:13px;
+}
+
+.con li{
+	line-height:36px;
+	font-size:13px;
+}
+/* 灰色盒子样式 */
+
+.con1{
+	background:#e6e7eb;
+	color:#666;
+	padding:24px 30px;
+}
+
+.con1 span{
+	font-size:13px;
+}
+
+.con1 li{
+	line-height:36px;
+	font-size:13px;
+}
+
+/* 第二个盒子(左边) */
+
+.box2{
+	width: 380px;
+	margin-bottom: 6px;
+	position:relative;
+	left:-414px;
+	padding-right:10px;
+	background: url(../images/left.png)no-repeat right top;
+}
+.box2 .icon{
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	position:absolute;
+	top:-6px;
+	right:-29px;	
+	background:url(../images/version_bg.png) no-repeat -316px -317px;
+}
+
+/* 第3-29个盒子(右边) */
+.box3,.box5,.box7,.box9,.box11,.box13,.box15
+,.box17,.box19,.box21,.box23,.box25,.box27,.box29{
+	width: 380px;
+	margin-bottom: 6px;
+	position:relative;
+	left:20px;
+	padding-left:10px;
+	background: url(../images/right_gray.png)no-repeat left top;
+}
+
+.box3 .icon,.box5 .icon,.box7 .icon,.box9 .icon
+,.box11 .icon,.box13 .icon,.box15 .icon
+,.box17 .icon,.box19 .icon,.box21 .icon
+,.box23 .icon,.box25 .icon,.box27 .icon
+,.box29 .icon{
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	position:absolute;
+	top:-6px;
+	left:-29px;
+	background:url(../images/version_bg.png) no-repeat -316px -317px;
+}
+
+/* 第4-28个盒子(左边) */
+
+.box4,.box6,.box8,.box10,.box12,.box14,.box16
+,.box18,.box20,.box22,.box24,.box26,.box28{
+	width: 380px;
+	margin-bottom: 6px;
+	position:relative;
+	left:-414px;
+	padding-right:10px;
+	background: url(../images/left_gray.png)no-repeat right top;
+}
+
+.box4 .icon,.box6 .icon,.box8 .icon
+,.box10 .icon,.box12 .icon,.box14 .icon
+,.box16 .icon,.box18 .icon,.box20 .icon
+,.box22 .icon,.box24 .icon,.box26 .icon
+,.box28 .icon{
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	position:absolute;
+	top:-6px;
+	right:-29px;
+	background:url(../images/version_bg.png) no-repeat -316px -317px;
+}
+
+
+.end{
+	height: 30px;
+	margin-top: 80px;
+	position:relative;
+	left:-20px;
+}
+.end span{
+	width: 30px;
+	height: 30px;
+	position:absolute;
+	left:0px;
+	top: 28px;
+	background:url(../images/version_bg.png) no-repeat -295px -281px;
+}
+.end .txt{
+	width:auto;
+	padding-left: 45px;
+	font-size: 16px;
+	line-height:30px;
+	color:#333;
+	
+}
+
+
+
+footer{
+	position:fixed;
+	bottom: 0px;
+	left:0px;
+	width: 100%;
+	height: 70px;
+	background: rgba(0,0,0,0.5);
+	z-index: 1;
+}
+.list{
+	width: 1000px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.list li{
+	width: 200px;
+	height: 70px;
+	float:left;
+	text-align: center;
+	line-height: 70px;
+
+}
+.list a{
+	width: 200px;
+	height: 70px;
+	float:left;
+	text-decoration: none;
+	color:#b1b1b1;
+	transition:background 1s;
+	
+}
+.list a.one:hover{
+	background:#228bd6;
+}
+.list a.two:hover{
+	background:tomato;
+}
+.list a.three:hover{
+	background:#69cc56;
+}
+.list a.four:hover{
+	background:purple;
+}
+.list a.five:hover{
+	background:#228bd6;
+}

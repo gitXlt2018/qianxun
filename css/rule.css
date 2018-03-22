@@ -1,0 +1,115 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-02 14:29:29
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-02 18:38:20
+*/
+body{
+	font-family: '微软雅黑';
+}
+header{
+	width: 100%;
+	height: 70px;
+	background: #fff;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.6);
+}
+header div{
+	width: 940px;
+	height: 70px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.logo{
+	width: 300px;
+	height: 70px;
+	float: left;
+}
+.logo span{
+	margin-top:16.5px;
+	display: block;
+	width: 242px;
+	height: 33px;
+	background:url(../images/sprite.png)no-repeat -28px 0px;
+
+}
+header ul{
+	width: 600px;
+	height: 70px;
+	float:right;
+}
+header li{
+	width: 120px;
+	height: 68px;
+	float:left;
+	text-align: center;
+	line-height: 68px;
+	font-weight: bold;
+	color: #425766;
+}
+
+header a{
+	text-decoration: none;
+}
+header li.current{
+	border-bottom: 5px solid #ff4500;
+}
+header .current a{
+	color:#ff4500;
+}
+
+section{
+	width: 940px;
+	margin:42px auto;
+}
+
+section h2{
+	font-weight:bold;
+	margin-bottom: 10px;
+
+}
+section p{
+	color:#333;
+	font-size: 14px;
+	margin-bottom: 40px;
+}
+
+.one{
+	border:1px solid #d6dbe2;
+	background:#eff3f6;
+	text-align:center;
+	margin-bottom: 33px;
+}
+.one td{
+	padding: 17px 0;
+	border-bottom:1px solid #d6dbe2;
+	border-collapse: collapse;
+}
+.one tr:nth-of-type(1){
+	background:#e4e7eb;
+	font-weight:bold;
+}
+
+section h2{
+	
+}
+
+.two{
+	border:1px solid #d6dbe2;
+	background:#eff3f6;
+	text-align:center;
+	margin-bottom: 33px;
+}
+.two td{
+	padding: 17px 0;
+	border-bottom:1px solid #d6dbe2;
+	border-collapse: collapse;
+}
+.two tr:nth-of-type(1){
+	background:#e4e7eb;
+	font-weight:bold;
+}
+
+.p1{
+	color:#aaabab;
+	font-size:12px;
+}

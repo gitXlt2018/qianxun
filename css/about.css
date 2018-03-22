@@ -1,0 +1,116 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-02 13:14:27
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-02 14:23:55
+*/
+html,body{
+	width: 100%;
+	height: 100%;
+}
+body{
+	background: url(../images/bg_all.png) no-repeat top center;
+}
+.container{
+	width: 1000px;
+	height: 700px;
+	margin:0 auto;
+	overflow:hidden;
+	padding: 156px 0 150px;
+
+}
+h1{
+	background:url(../images/alogo.png) no-repeat 0px -112px;
+	width:330px;
+	height:68px;
+	margin:0 auto 58px;
+}
+h2{
+	width: 155px;
+	height: 40px;
+	background:url(../images/alogo.png) no-repeat -175px -182px;
+	margin:0 auto 54px;
+}
+.main{
+	height: 400px;
+}
+
+dl{
+	width: 480px;
+	color:#414141;
+	margin-bottom: 8px;
+	line-height:1.4;
+	font-size: 18px;
+	float:left;
+}
+dd{
+	color:#808080;
+	margin-bottom: 28px;
+	font-size:14px;
+	line-height:1.5;
+}
+.main ul{
+	width: 420px;
+	height: 374px;
+	float:right;
+}
+.main li{
+	width: 148px;
+	height: 148px;
+	float:left;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+span{
+	color:#a5a5a5;
+	display: block;
+	text-align:center;
+}
+
+
+footer{
+	position:fixed;
+	bottom: 0px;
+	left:0px;
+	width: 100%;
+	height: 70px;
+	background: rgba(0,0,0,0.5);
+	z-index: 1;
+}
+.list{
+	width: 1000px;
+	margin:0 auto;
+	overflow:hidden;
+}
+.list li{
+	width: 200px;
+	height: 70px;
+	float:left;
+	text-align: center;
+	line-height: 70px;
+
+}
+.list a{
+	width: 200px;
+	height: 70px;
+	float:left;
+	text-decoration: none;
+	color:#b1b1b1;
+	transition:background 1s;
+	
+}
+.list a.one:hover{
+	background:#228bd6;
+}
+.list a.two:hover{
+	background:tomato;
+}
+.list a.three:hover{
+	background:#69cc56;
+}
+.list a.four:hover{
+	background:purple;
+}
+.list a.five:hover{
+	background:#228bd6;
+}

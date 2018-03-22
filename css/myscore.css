@@ -1,0 +1,306 @@
+/*
+* @Author: Administrator
+* @Date:   2017-10-02 18:39:42
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-10-03 00:41:16
+*/
+body{
+	background:#f6f8fa;
+	font-family: '微软雅黑';
+}
+header{
+	width: 100%;
+	height: 70px;
+	background: #fff;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.6);
+}
+header div{
+	width: 940px;
+	height: 70px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.logo{
+	width: 300px;
+	height: 70px;
+	float: left;
+}
+.logo span{
+	margin-top:16.5px;
+	display: block;
+	width: 242px;
+	height: 33px;
+	background:url(../images/sprite.png)no-repeat -28px 0px;
+
+}
+header ul{
+	width: 600px;
+	height: 70px;
+	float:right;
+}
+header li{
+	width: 120px;
+	height: 68px;
+	float:left;
+	text-align: center;
+	line-height: 68px;
+	font-weight: bold;
+	color: #425766;
+}
+
+header a{
+	text-decoration: none;
+}
+header li.current{
+	border-bottom: 5px solid #ff4500;
+}
+header .current a{
+	color:#ff4500;
+}
+
+section{
+	width: 940px;
+	height:800px;
+	margin:10px auto;
+}
+
+.top{
+	width: 940px;
+	height: 218px;
+}
+
+/* 左边 */
+.top .left{
+	width: 180px;
+	height: 218px;
+	background:#fff;
+	float:left;
+	box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.6);
+}
+
+.left .qian a{
+	display:inline-block;
+	text-align:center;
+	width: 156px;
+	height: 70px;
+	margin-top: 68px;
+	margin-left: 20px;
+	line-height:40px;
+	text-decoration:none;
+	color:#fff;
+	font-size: 16px;
+	font-weight:bold;
+	background:url(../images/sprite.png)no-repeat -124px -1636px;
+}
+.left .qian p{
+	color:#8596a2;
+	text-align:center;
+	font-size:12px;
+
+}
+.left .qian span{
+	color:red;
+}
+
+
+
+/* 右边 */
+.top .right{
+	width: 747px;
+	height: 218px;
+	overflow:hidden;
+	float: right;
+	position:relative;
+
+}
+.right ul{
+	width: 2988px;
+	height: 218px;
+	position: relative;	
+}
+.right li{
+	float: left;
+}
+
+.right span{
+	width: 33px;
+	height: 64px;
+	z-index: 1;
+	color:#fff;
+	text-align:center;
+	cursor: pointer;
+}
+.right .s1{
+	position:absolute;
+	top:50%;
+	left:20px;
+	margin-top:-30px;
+	background:url(../images/sprite.png) no-repeat -235px -1868px;
+}
+.right .s2{
+	position:absolute;
+	top:50%;
+	margin-top:-30px;
+	right:20px;
+	background:url(../images/sprite.png) no-repeat -235px -1935px;
+}
+
+.middle{
+	width: 940px;
+	height: 320px;
+	margin-top:10px;
+	overflow:hidden;
+	background:#fff;
+}
+.yestadays{
+	height: 36px;
+	margin: 30px 33px 0;
+}
+.yestadays .bot{
+	width: 20px;
+	height: 20px;
+	float:left;
+	display:inline-block;
+	margin:4px 10px 0 0; 
+	background:url(../images/sprite1.png)no-repeat -252px -2115px;
+}
+.yestadays p{
+	float:left;
+}
+.yestadays .score{
+	float:left;
+	height:22px;
+	padding: 0 10px;
+	position:relative;
+}
+
+.score img:nth-of-type(1){
+	position:absolute;
+	bottom:-14px;
+	height:20px;
+}
+.score img:nth-of-type(2){
+	position:relative;
+}
+.score img:nth-of-type(3){
+	position:relative;
+}
+.middle ul{
+	width: 802px;
+	height: 230px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.middle li{
+	position:relative;
+	width: 200px;
+	height: 200px;
+	float:left;
+	margin-right: 90px;
+	background:url(../images/circle.png) no-repeat;
+}
+.middle li:nth-of-type(3){
+	margin-right:0px;
+}
+
+.middle .p1{
+	text-align:center;
+	font-size:20px;
+	margin-top:70px;
+	color:#425766;
+
+}
+strong{
+	font-size:40px;
+	font-weight:bold;
+}
+.middle .p2{
+	text-align:center;
+	font-size:12px;
+	margin-top:30px;
+	color:#8596a2;
+
+}
+.middle .wen{
+	position:absolute;
+	display:inline-block;
+	width: 21px;
+	height: 20px;
+	top: 0px;
+	right:0px;
+	background:url(../images/sprite1.png) no-repeat -249px -2135px;
+}
+
+
+.foot{
+	width: 875px;
+	height: 320px;
+	background:#fff;	
+	margin-top:10px;
+	padding:30px 33px 0;
+}
+.recent{
+	width: 940px;
+	height: 66px;
+}
+.recent p{
+	float:left;
+	color:#425766;
+}
+.recent ul{
+	float:left;
+}
+.recent li{
+	float:left;
+	color:#425766;
+	line-height:30px;
+	height:30px;
+	cursor:pointer;
+	padding:0 30px;
+}
+.recent .cur{
+	border-bottom:2px solid #88b7ee;
+	color:#88b7ee;
+	font-weight:bold;
+}
+.recent .icon{
+	width: 20px;
+	height: 20px;
+	float:left;
+	display:inline-block;
+	margin:4px 10px 0 0; 
+	background:url(../images/sprite1.png)no-repeat -253px -2182px;
+}
+
+.time{
+	width: 650px;
+	height: 140px;
+	margin:0 auto;
+	border-bottom:1px solid #e5e8ec;
+	padding:0 25px;
+}
+.time li{
+	float:left;
+	width: 65px;
+	height: 140px;
+	position:relative;
+}
+.time p{
+	width: 65px;
+	position:absolute;
+	left:0px;
+	bottom:-25px;
+	font-size:12px;
+	color:#8596a2;
+	text-align:center;
+	line-height:1em;;
+}
+.time div{
+	position:absolute;
+	left:30px;
+	bottom:-1px;
+	width: 4px;
+	height: 2%;
+	border-radius:2px;
+	background:#7bafec;
+}
